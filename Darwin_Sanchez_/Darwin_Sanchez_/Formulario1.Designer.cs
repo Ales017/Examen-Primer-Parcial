@@ -35,6 +35,17 @@
             Calcularbutton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
+            // Calcularbutton
+            // 
+            Calcularbutton.Location = new System.Drawing.Point(303, 158);
+            Calcularbutton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            Calcularbutton.Name = "Calcularbutton";
+            Calcularbutton.Size = new System.Drawing.Size(161, 55);
+            Calcularbutton.TabIndex = 6;
+            Calcularbutton.Text = "Calcular";
+            Calcularbutton.UseVisualStyleBackColor = true;
+            Calcularbutton.Click += new System.EventHandler(this.Calcularbutton_Click);
+            // 
             // MescomboBox
             // 
             this.MescomboBox.FormattingEnabled = true;
@@ -56,17 +67,6 @@
             this.MescomboBox.Name = "MescomboBox";
             this.MescomboBox.Size = new System.Drawing.Size(267, 24);
             this.MescomboBox.TabIndex = 7;
-            // 
-            // Calcularbutton
-            // 
-            Calcularbutton.Location = new System.Drawing.Point(303, 158);
-            Calcularbutton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            Calcularbutton.Name = "Calcularbutton";
-            Calcularbutton.Size = new System.Drawing.Size(161, 55);
-            Calcularbutton.TabIndex = 6;
-            Calcularbutton.Text = "Calcular";
-            Calcularbutton.UseVisualStyleBackColor = true;
-            Calcularbutton.Click += new System.EventHandler(this.Calcularbutton_Click);
             // 
             // MostrarCalculolistBox
             // 
@@ -98,6 +98,7 @@
             this.Controls.Add(this.MostrarCalculolistBox);
             this.Controls.Add(this.CalculoMeslabel);
             this.Name = "Formulario1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario1";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -146,6 +146,7 @@
             this.Controls.Add(this.ProductotextBox);
             this.Controls.Add(this.Productolabel);
             this.Name = "Formulario2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario2";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);

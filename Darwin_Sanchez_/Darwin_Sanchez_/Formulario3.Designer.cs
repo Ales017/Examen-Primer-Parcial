@@ -50,7 +50,6 @@
             this.MultiploslistBox.Name = "MultiploslistBox";
             this.MultiploslistBox.Size = new System.Drawing.Size(622, 244);
             this.MultiploslistBox.TabIndex = 2;
-            
             // 
             // Formulario3
             // 
@@ -60,6 +59,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.MultiploslistBox);
             this.Name = "Formulario3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario3";
             this.ResumeLayout(false);
 
